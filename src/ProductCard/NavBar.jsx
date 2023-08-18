@@ -13,7 +13,7 @@ const NavBar = () => {
     <>
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid ">
-          <NavLink className="navbar-brand  mx-sm-3 mx-2 text-info "  to="/">
+          <NavLink className="navbar-brand  mx-sm-3 mx-2 text-info "  to="/KadharTech-Mobile">
             ABDULLAH ZUBAIR
           </NavLink>
           <button
@@ -41,7 +41,7 @@ const NavBar = () => {
                 <NavLink
                   className="nav-link active text-white"
                   aria-current="page"
-                  to="/"
+                  to="/KadharTech-Mobile"
                   onClick={handleMenuItemClick}
                 >
                   Home

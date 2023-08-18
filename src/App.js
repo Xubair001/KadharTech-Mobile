@@ -1,8 +1,9 @@
 import { React, useState, useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Dummy from "./ProductCard/Dummy";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dummy from "./ProductCard/Dummy";
 import BuyProduct from "./ProductCard/BuyProduct";
 import ErrorPage from "./ProductCard/ErrorPage";
 import NavBar from "./ProductCard/NavBar";
@@ -27,12 +28,16 @@ const App = () => {
       <Router>
         <NavBar />
         <Routes>
-          <Route exact path="/" element={<Dummy data={data} />} />          
+          <Route
+            exact
+            path="/KadharTech-Mobile"
+            element={<Dummy data={data} />}
+          />
           <Route path="/product/:id" element={<BuyProduct data={data} />} />
           <Route exact path="/feedback" element={<FeedBack />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </>
   );

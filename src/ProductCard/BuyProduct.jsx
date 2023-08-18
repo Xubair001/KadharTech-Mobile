@@ -18,7 +18,7 @@ const CartProduct = (props) => {
       <div className="container-fluid  bg-light">
         <div className="row">
           <div className=" col-sm-8 col-lg-6 col-12 mx-auto my-5 bg-light">
-          <NavLink to="/" exact className=" text-white btn btn-dark my-3" >Go Back</NavLink>
+          <NavLink to="/KadharTech-Mobile" exact className=" text-white btn btn-dark my-3" >Go Back</NavLink>
             <div className="row">
               
             

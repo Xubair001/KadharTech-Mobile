@@ -8,7 +8,7 @@ const ErrorPage = () => {
             <div className="col-sm-10 my-5 mx-auto text-white text-center ">
                 <h1 className='my-5'>Error 404! <br />
                 Opp! You Landed in the wrong page 😭</h1>
-                <NavLink to="/" exact className=" text-white btn btn-success" >Go Back</NavLink>
+                <NavLink to="/KadharTech-Mobile" exact className=" text-white btn btn-success" >Go Back</NavLink>
             </div>
         </div>
     </div>

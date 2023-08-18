@@ -10,6 +10,7 @@ const FeedBack = () => {
     message:"",
   });
   const handleSubmit = (e) => {
+    e.preventDefault();
     alert(
         `Thanks ${data.fname} ${data.lname} for Reaching us from ${data.city}. We always prefer Customer Sugesstion on top. And thanks for your precious review ${data.message} `
       );
