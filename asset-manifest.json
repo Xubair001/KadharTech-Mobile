@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KadharTech-Mobile/static/css/main.ac159a4a.css",
-    "main.js": "/KadharTech-Mobile/static/js/main.89a64d69.js",
+    "main.js": "/KadharTech-Mobile/static/js/main.5476c411.js",
     "static/js/787.081ee1a1.chunk.js": "/KadharTech-Mobile/static/js/787.081ee1a1.chunk.js",
     "static/media/slick.svg": "/KadharTech-Mobile/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/KadharTech-Mobile/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/KadharTech-Mobile/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/KadharTech-Mobile/index.html",
     "main.ac159a4a.css.map": "/KadharTech-Mobile/static/css/main.ac159a4a.css.map",
-    "main.89a64d69.js.map": "/KadharTech-Mobile/static/js/main.89a64d69.js.map",
+    "main.5476c411.js.map": "/KadharTech-Mobile/static/js/main.5476c411.js.map",
     "787.081ee1a1.chunk.js.map": "/KadharTech-Mobile/static/js/787.081ee1a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac159a4a.css",
-    "static/js/main.89a64d69.js"
+    "static/js/main.5476c411.js"
   ]
 }
